@@ -2,9 +2,9 @@ import React from "react";
 
 export const NavBar = () => {
   return (
-    <header className="z-40 fixed top-0 left-0 flex gap-4 w-full flex-row flex-nowrap items-center justify-between h-20 max-w-full px-4 sm:px-6 bg-transparent">
+    <header className="z-40 fixed top-0 left-0 flex gap-4 w-full flex-row flex-nowrap items-center justify-between h-20 max-w-full px-4 sm:px-6 bg-black">
       <div className="flex basis-0 flex-row flex-grow flex-nowrap justify-start bg-transparent items-center no-underline text-medium whitespace-nowrap box-border">
-        <p>Logo</p>
+        <img src="logo.svg" alt="Logo" className="h-14 w-auto" />
       </div>
       <nav>
         <ul className="flex-row flex-nowrap items-center data-[justify=start]:justify-start data-[justify=start]:flex-grow data-[justify=start]:basis-0 data-[justify=center]:justify-center data-[justify=end]:justify-end data-[justify=end]:flex-grow data-[justify=end]:basis-0 ml-4 hidden h-12 w-full max-w-fit gap-4 rounded-full bg-content2 px-4 dark:bg-content1 sm:flex">
